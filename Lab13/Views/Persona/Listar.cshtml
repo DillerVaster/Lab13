@@ -39,6 +39,6 @@
 		grid.Column(columnName: "Direccion", header: "Dirección"),
 		grid.Column(columnName: "FechaNac", header: "Fecha Nac."),
 		grid.Column(columnName: "Email", header: "Email"),
-		grid.Column(header: "Acciones", format: (item) => Html.ActionLink("Ver","Mostar","Persona", new { id = item.personaID }, null))
+		grid.Column(header: "Acciones", format: (item) => Html.ActionLink("Ver","Mostrar","Persona", new { id = item.personaID }, null))
 	)
 )
